@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react'
-import API_KEY from "./keys"
+import { useState, useEffect } from 'react';
+
+const API_KEY = process.env.REACT_APP_API_KEY
 
 const CONTEXT_KEY = "26311c6b72b9c418f"
 

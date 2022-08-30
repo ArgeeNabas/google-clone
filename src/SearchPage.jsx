@@ -17,6 +17,7 @@ function SearchPage() {
     const { data } = useGoogleSearch(term);
 
     console.log(data)
+    console.log('RIGHT HERE', process.env.REACT_APP_API_KEY)
 
     return (
         <div className="searchPage">
